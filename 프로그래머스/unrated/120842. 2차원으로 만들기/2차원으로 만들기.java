@@ -6,7 +6,8 @@ class Solution {
         
         for(i = 0; i < (num_list.length / n); i++){
             for(j = 0; j < n; j++){
-                answer[i][j] = num_list[count++];
+                answer[i][j] = num_list[count];
+                count++;
             }
         }
         
