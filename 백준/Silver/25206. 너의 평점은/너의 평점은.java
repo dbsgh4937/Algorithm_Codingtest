@@ -68,5 +68,6 @@ public class Main {
         }
 
         System.out.printf("%.6f", (sumOfScore / getSumOfScore));
+        bufferedReader.close();
     }
 }
